@@ -7,7 +7,7 @@ import "./index.css"; // Optional styling
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/spotify-recommender">
             <App />
         </BrowserRouter>
     </React.StrictMode>
